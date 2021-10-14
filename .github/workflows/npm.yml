@@ -10,6 +10,8 @@ jobs:
       with:
         node-version: '14.x'
         registry-url: 'https://registry.npmjs.org'
+    - name: Install dependencies
+      run: npm install
     - name: Build package
       run: npm run build
     - name: Publish tag to npm
