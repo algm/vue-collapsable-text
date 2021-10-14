@@ -42,7 +42,7 @@
         {{ less }}
       </button>
       <p v-else>
-        {{ h2p(text) }}
+        {{ truncate(text) }}
       </p>
     </div>
   </div>
