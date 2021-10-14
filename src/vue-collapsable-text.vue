@@ -52,7 +52,7 @@
 import h2p from "html-truncate";
 
 export default {
-  name: "TruncateText",
+  name: "Truncate",
 
   props: {
     truncated: {
