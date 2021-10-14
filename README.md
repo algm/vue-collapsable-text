@@ -1,0 +1,1 @@
+vue-collapsable-text
